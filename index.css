@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 28, 70);
+}
+
+h1{
+   text-align: center;
+   transition: 2s;
+}
+
+h1:hover{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap: 24px;
+    padding: 24px;
+
+}
+
+.sticky{
+    height: 200px;
+    padding: 16px;
+    resize: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.sticky:hover{
+    
+    height: 201px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.adn-btn{
+    height: 200px;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(60, 60, 60);
+    background-color: rgb(87, 213, 19);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.adn-btn:hover{
+    background-color:  rgb(36, 94, 152);
+    transition: 0.7s;
+    border-radius: 12px;
+    color: aquamarine;
+}
+
